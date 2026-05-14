@@ -103,6 +103,8 @@ docker compose up airflow-init
 # Start Airflow
 docker compose up -d
 ```
+<img width="1203" height="668" alt="image" src="https://github.com/user-attachments/assets/5b714986-b130-43ed-ab70-766d796c016e" />
+
 
 ### 3. Access Airflow UI
 Go to `http://localhost:8080`
@@ -138,6 +140,9 @@ Your service account needs these roles:
 
 ## Running the Pipeline
 
+<img width="1618" height="1036" alt="image" src="https://github.com/user-attachments/assets/e107f4cc-928e-42d6-a3ad-15991f837d78" />
+
+
 ### Manual Trigger
 1. Go to Airflow UI at `http://localhost:8080`
 2. Find `weather_data_ingestion` DAG
@@ -154,6 +159,9 @@ start_date=datetime(2026, 4, 14),
 catchup=True,
 ```
 2. Save and let Airflow automatically backfill
+
+<img width="1918" height="818" alt="image" src="https://github.com/user-attachments/assets/22e31c6e-0c00-450a-a42f-b546938a6f25" />
+
 
 ---
 
