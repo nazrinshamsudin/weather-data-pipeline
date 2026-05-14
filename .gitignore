@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Airflow
+logs/
+plugins/
+
+# Google Cloud credentials
+*.json
+service-account*.json
+keyfile*.json
+
+# Docker
+docker-compose.override.yml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
